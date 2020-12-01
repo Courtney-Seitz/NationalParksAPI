@@ -13,10 +13,12 @@
         <h1>National Parks API</h1>
 
         <form id="js-form">
-            <label for="js-search-term">Search for parks</label>
-            <input type="text" name="search-term" id="js-search-term" required>
-
-            <label for="js-max-results">Maximum results to return</label>
+            <label for="js-search-term">Search for parks by state:</label>
+            <input type="text" name="search-term" id="js-search-term" placeholder="CA,TX" required>
+            <p>Tip: Enter multiple states by two-letter state code, separated by commas and no spaces. (Example: CA,TN,AL)</p>
+            <br>
+            <br>
+            <label for="js-max-results">Select maximum results to return:</label>
             <input type="number" name="max-results" id="js-max-results" value="10">
 
             <input type="submit" value="Go!">
